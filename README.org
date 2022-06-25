@@ -1,5 +1,5 @@
 * DWM 6.3
-This is my patched build for =dwm=. All applied patches can be found in the =patches= directory.
+This is my patched build for Suckless' window manager, =dwm=. All applied patches can be found in the =patches= directory.
 * Patches
 This build has been patched with:
 - ...
