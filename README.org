@@ -8,7 +8,7 @@ To install this build of =dwm= first clone this repo:
 #+BEGIN_SRC 
 $ git clone https://github.com/BryanRi/dwm.git
 #+END_SRC
-Then go into the dmenu directory and install it:
+Then go into the dwm directory and install it:
 #+BEGIN_SRC 
 $ cd dwm
 $ sudo make clean install
