@@ -1,0 +1,15 @@
+* DWM 6.3
+This is my patched build for =dwm=. All applied patches can be found in the =patches= directory.
+* Patches
+This build has been patched with:
+- ...
+* Installation
+To install this build of =dwm= first clone this repo:
+#+BEGIN_SRC 
+$ git clone https://github.com/BryanRi/dwm.git
+#+END_SRC
+Then go into the dmenu directory and install it:
+#+BEGIN_SRC 
+$ cd dwm
+$ sudo make clean install
+#+END_SRC
