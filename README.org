@@ -1,8 +1,10 @@
 * DWM 6.3
-This is my patched build for Suckless' window manager, =dwm=. All applied patches can be found in the =patches= directory.
+This is my patched build for Suckless' window manager, [[https://dwm.suckless.org/][dwm]]. All applied patches can be found in the =patches= directory.
+
 * Patches
 This build has been patched with:
 - ...
+
 * Installation
 To install this build of =dwm= first clone this repo:
 #+BEGIN_SRC 
@@ -13,3 +15,8 @@ Then go into the dwm directory and install it:
 $ cd dwm
 $ sudo make clean install
 #+END_SRC
+
+* Todo
+Add the following patches:
+- =attachbottom=
+- ...
