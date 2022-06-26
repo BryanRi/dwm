@@ -18,5 +18,12 @@ $ sudo make clean install
 
 * Todo
 Add the following patches:
+- =alwayscenter=
 - =attachbottom=
-- ...
+- =awesomebar= (partially)
+- =colorbar=
+- =fancybar=
+- =statusbarfont=
+- (continue at f)
+  
+- use [[https://github.com/ashish-yadav11/dwmblocks][dwmblocks]] instead of default bar.
