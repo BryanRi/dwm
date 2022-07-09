@@ -3,7 +3,8 @@ This is my patched build for Suckless' window manager, [[https://dwm.suckless.or
 
 * Patches
 This build has been patched with:
-- ...
+- =attachbottom=
+- =movestack=
 
 * Installation
 To install this build of =dwm= first clone this repo:
@@ -18,12 +19,28 @@ $ sudo make clean install
 
 * Todo
 Add the following patches:
-- =alwayscenter=
-- =attachbottom=
-- =awesomebar= (partially)
-- =colorbar=
-- =fancybar=
-- =statusbarfont=
-- (continue at f)
+- =fancybar=, 0
+- =alwayscenter=, 1
+- =awesomebar= (partially), 1
+- =pertag=, 1
+- =tagothermonitor=, 1
+- =colorbar=, 1
+- =statusbarfont=, 2
+- =focusmaster=, 2
+- =gaps=, 2
+- =gapless grid layout=, =horizontal grid=, 2
+- =keychord=, 2
+- =layoutscroll=, 2
+- =scratchpads=, =namedscratchpads=, 2
+- =removeborder=, =noborder=, 2
+- =stackmfact=, 2 (resize stack vertically)
+- =sticky=, =stickyindicator=, 2
+- =swallow=, 2
+- =maximize=, 3
+- =noborderflicker=, 3
+- =notitle=, 3
+- =viewontag=, 3
   
-- use [[https://github.com/ashish-yadav11/dwmblocks][dwmblocks]] instead of default bar.
+- use [[https://github.com/ashish-yadav11/dwmblocks][dwmblocks]] instead of default bar. 0
+- =script_tags=, =anybar=, maybe useful
+- =statuscmd=
